@@ -12,12 +12,72 @@
       "sizes": "192x192",
       "type": "image/png"
     }
-  ],
-  "name_localized": {
+  ],  "name_localized": {
     "de": "Test WebApp",
     "en": {"value": "Test WebApp"},
     "en-GB": {"value": "Test WebApp", "dir": "ltr"},
     "fr": {"value": "Application Web de Test", "lang": "fr-CA", "dir": "ltr"},
     "ar": {"value": "تطبيق ويب تجريبي", "dir": "rtl"}
-  }
+  },
+  "short_name_localized": {
+    "de": "TestApp",
+    "en": {"value": "TestApp"},
+    "en-GB": {"value": "TestApp", "dir": "ltr"},
+    "fr": {"value": "AppTest", "lang": "fr-CA", "dir": "ltr"},
+    "ar": {"value": "تطبيق", "dir": "rtl"}
+  },
+  "description_localized": {
+    "de": "Eine einfache Test-Webanwendung",
+    "en": {"value": "A simple test web application"},
+    "en-GB": {"value": "A simple test web application", "dir": "ltr"},
+    "fr": {"value": "Une application web de test simple", "lang": "fr-CA", "dir": "ltr"},
+    "ar": {"value": "تطبيق ويب تجريبي بسيط", "dir": "rtl"}
+  },
+  "shortcuts": [    {
+      "name": "Home",
+      "short_name": "Home",
+      "name_localized": {
+        "de": "Startseite",
+        "en": {"value": "Home"},
+        "en-GB": {"value": "Home", "dir": "ltr"},
+        "fr": {"value": "Accueil", "lang": "fr-CA", "dir": "ltr"},
+        "ar": {"value": "الرئيسية", "dir": "rtl"}
+      },
+      "short_name_localized": {
+        "de": "Start",
+        "en": {"value": "Home"},
+        "en-GB": {"value": "Home", "dir": "ltr"},
+        "fr": {"value": "Acc", "lang": "fr-CA", "dir": "ltr"},
+        "ar": {"value": "رئيسية", "dir": "rtl"}
+      },
+      "url": "/",
+      "description": "Go to home page",
+      "description_localized": {
+        "de": "Zur Startseite gehen",
+        "en": {"value": "Go to home page"},
+        "en-GB": {"value": "Go to home page", "dir": "ltr"},
+        "fr": {"value": "Aller à la page d'accueil", "lang": "fr-CA", "dir": "ltr"},
+        "ar": {"value": "انتقل إلى الصفحة الرئيسية", "dir": "rtl"}
+      }
+    },
+    {
+      "name": "About",
+      "name_localized": {
+        "de": "Über",
+        "en": {"value": "About"},
+        "en-GB": {"value": "About", "dir": "ltr"},
+        "fr": {"value": "À propos", "lang": "fr-CA", "dir": "ltr"},
+        "ar": {"value": "حول", "dir": "rtl"}
+      },
+      "url": "/about",
+      "description": "About this app",
+      "description_localized": {
+        "de": "Über diese App",
+        "en": {"value": "About this app"},
+        "en-GB": {"value": "About this app", "dir": "ltr"},
+        "fr": {"value": "À propos de cette application", "lang": "fr-CA", "dir": "ltr"},
+        "ar": {"value": "حول هذا التطبيق", "dir": "rtl"}
+      }
+    }
+  ]
 }
