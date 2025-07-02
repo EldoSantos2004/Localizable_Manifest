@@ -1,13 +1,13 @@
 {
-  "name": "Test WebApp",
-  "short_name": "TestApp",
-  "description": "A simple test web application",
+  "name": "Application Web de Test",
+  "short_name": "AppTest",
+  "description": "Une application web de test simple",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",  "icons": [
     {
-      "src": "icon_normal.png",
+      "src": "icon_localized.png",
       "sizes": "192x192",
       "type": "image/png"
     }
@@ -47,16 +47,15 @@
     "ar": {"value": "تطبيق ويب تجريبي بسيط", "dir": "rtl"}
   },
   "shortcuts": [    {
-      "name": "Home",
-      "short_name": "Home",
+      "name": "Accueil",
+      "short_name": "Acc",
       "name_localized": {
         "de": "Startseite",
         "en": {"value": "Home"},
         "en-GB": {"value": "Home", "dir": "ltr"},
         "fr": {"value": "Accueil", "lang": "fr-CA", "dir": "ltr"},
         "ar": {"value": "الرئيسية", "dir": "rtl"}
-      },
-      "short_name_localized": {
+      },      "short_name_localized": {
         "de": "Start",
         "en": {"value": "Home"},
         "en-GB": {"value": "Home", "dir": "ltr"},
@@ -64,15 +63,14 @@
         "ar": {"value": "رئيسية", "dir": "rtl"}
       },
       "url": "/",
-      "description": "Go to home page",      "description_localized": {
+      "description": "Aller à la page d'accueil","description_localized": {
         "de": "Zur Startseite gehen",
         "en": {"value": "Go to home page"},
         "en-GB": {"value": "Go to home page", "dir": "ltr"},
-        "fr": {"value": "Aller à la page d'accueil", "lang": "fr-CA", "dir": "ltr"},
-        "ar": {"value": "انتقل إلى الصفحة الرئيسية", "dir": "rtl"}
+        "fr": {"value": "Aller à la page d'accueil", "lang": "fr-CA", "dir": "ltr"},        "ar": {"value": "انتقل إلى الصفحة الرئيسية", "dir": "rtl"}
       },      "icons": [
-        { "src": "icon_normal.png", "sizes": "64x64" },
-        { "src": "icon_normal.png", "sizes": "256x256" }
+        { "src": "icon_localized.png", "sizes": "64x64" },
+        { "src": "icon_localized.png", "sizes": "256x256" }
       ],
       "icons_localized": {
         "de": [
@@ -88,26 +86,23 @@
           { "src": "icon_localized.png", "sizes": "256x256" }
         ]
       }
-    },
-    {
-      "name": "About",
+    },    {
+      "name": "À propos",
       "name_localized": {
         "de": "Über",
         "en": {"value": "About"},
         "en-GB": {"value": "About", "dir": "ltr"},
         "fr": {"value": "À propos", "lang": "fr-CA", "dir": "ltr"},
         "ar": {"5value": "حول", "dir": "rtl"}
-      },
-      "url": "/about",
-      "description": "About this app",      "description_localized": {
+      },      "url": "/about",
+      "description": "À propos de cette application",      "description_localized": {
         "de": "Über diese App",
         "en": {"value": "About this app"},
         "en-GB": {"value": "About this app", "dir": "ltr"},
-        "fr": {"value": "À propos de cette application", "lang": "fr-CA", "dir": "ltr"},
-        "ar": {"value": "حول هذا التطبيق", "dir": "rtl"}
+        "fr": {"value": "À propos de cette application", "lang": "fr-CA", "dir": "ltr"},        "ar": {"value": "حول هذا التطبيق", "dir": "rtl"}
       },      "icons": [
-        { "src": "icon_normal.png", "sizes": "64x64" },
-        { "src": "icon_normal.png", "sizes": "256x256" }
+        { "src": "icon_localized.png", "sizes": "64x64" },
+        { "src": "icon_localized.png", "sizes": "256x256" }
       ],
       "icons_localized": {
         "de": [
