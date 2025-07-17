@@ -5,7 +5,8 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",  "icons": [
+  "theme_color": "#000000",
+  "icons": [
     {
       "src": "icon_normal.png",
       "sizes": "192x192",
@@ -24,27 +25,35 @@
     "ar": [
       { "src": "icon_localized.png", "sizes": "64x64" },
       { "src": "icon_localized.png", "sizes": "256x256" }
+    ],
+    "es": [
+      { "src": "icon_localized.png", "sizes": "64x64" },
+      { "src": "icon_localized.png", "sizes": "256x256" }
     ]
-  },"name_localized": {
+  },
+  "name_localized": {
     "de": "Test WebApp",
     "en": {"value": "Test WebApp"},
     "en-GB": {"value": "Test WebApp", "dir": "ltr"},
     "fr": {"value": "Application Web de Test", "lang": "fr-CA", "dir": "ltr"},
-    "ar": {"value": "تطبيق ويب تجريبي", "dir": "rtl"}
+    "ar": {"value": "تطبيق ويب تجريبي", "dir": "rtl"},
+    "es": {"value": "Aplicación Web de Prueba", "lang": "es-ES", "dir": "ltr"}
   },
   "short_name_localized": {
     "de": "TestApp",
     "en": {"value": "TestApp"},
     "en-GB": {"value": "TestApp", "dir": "ltr"},
     "fr": {"value": "AppTest", "lang": "fr-CA", "dir": "ltr"},
-    "ar": {"value": "تطبيق", "dir": "rtl"}
+    "ar": {"value": "تطبيق", "dir": "rtl"},
+    "es": {"value": "AppPrueba", "lang": "es-ES", "dir": "ltr"}
   },
   "description_localized": {
     "de": "Eine einfache Test-Webanwendung",
     "en": {"value": "A simple test web application"},
     "en-GB": {"value": "A simple test web application", "dir": "ltr"},
     "fr": {"value": "Une application web de test simple", "lang": "fr-CA", "dir": "ltr"},
-    "ar": {"value": "تطبيق ويب تجريبي بسيط", "dir": "rtl"}
+    "ar": {"value": "تطبيق ويب تجريبي بسيط", "dir": "rtl"},
+    "es": {"value": "Una aplicación web de prueba simple", "lang": "es-ES", "dir": "ltr"}
   },
   "shortcuts": [    {
       "name": "Home",
@@ -54,19 +63,24 @@
         "en": {"value": "Home"},
         "en-GB": {"value": "Home", "dir": "ltr"},
         "fr": {"value": "Accueil", "lang": "fr-CA", "dir": "ltr"},
-        "ar": {"value": "الرئيسية", "dir": "rtl"}
+        "ar": {"value": "الرئيسية", "dir": "rtl"},
+        "es": {"value": "Inicio", "lang": "es-ES", "dir": "ltr"}
       },      "short_name_localized": {
         "de": "Start",
         "en": {"value": "Home"},
         "en-GB": {"value": "Home", "dir": "ltr"},
         "fr": {"value": "Acc", "lang": "fr-CA", "dir": "ltr"},
-        "ar": {"value": "رئيسية", "dir": "rtl"}
+        "ar": {"value": "رئيسية", "dir": "rtl"},
+        "es": {"value": "Inic", "lang": "es-ES", "dir": "ltr"}
       },      "url": "/",
-      "description": "Go to home page","description_localized": {
+      "description": "Go to home page",
+      "description_localized": {
         "de": "Zur Startseite gehen",
         "en": {"value": "Go to home page"},
         "en-GB": {"value": "Go to home page", "dir": "ltr"},
-        "fr": {"value": "Aller à la page d'accueil", "lang": "fr-CA", "dir": "ltr"},        "ar": {"value": "انتقل إلى الصفحة الرئيسية", "dir": "rtl"}
+        "fr": {"value": "Aller à la page d'accueil", "lang": "fr-CA", "dir": "ltr"},
+        "ar": {"value": "انتقل إلى الصفحة الرئيسية", "dir": "rtl"},
+        "es": {"value": "Ir a la página de inicio", "lang": "es-ES", "dir": "ltr"}
       },      "icons": [
         { "src": "icon_normal.png", "sizes": "64x64" },
         { "src": "icon_normal.png", "sizes": "256x256" }
@@ -81,6 +95,10 @@
           { "src": "icon_localized.png", "sizes": "256x256" }
         ],
         "ar": [
+          { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "256x256" }
+        ],
+        "es": [
           { "src": "icon_localized.png", "sizes": "64x64" },
           { "src": "icon_localized.png", "sizes": "256x256" }
         ]
@@ -92,13 +110,17 @@
         "en": {"value": "About"},
         "en-GB": {"value": "About", "dir": "ltr"},
         "fr": {"value": "À propos", "lang": "fr-CA", "dir": "ltr"},
-        "ar": {"5value": "حول", "dir": "rtl"}
+        "ar": {"value": "حول", "dir": "rtl"},
+        "es": {"value": "Acerca de", "lang": "es-ES", "dir": "ltr"}
       },      "url": "/about",
-      "description": "About this app","description_localized": {
+      "description": "About this app",
+      "description_localized": {
         "de": "Über diese App",
         "en": {"value": "About this app"},
         "en-GB": {"value": "About this app", "dir": "ltr"},
-        "fr": {"value": "À propos de cette application", "lang": "fr-CA", "dir": "ltr"},        "ar": {"value": "حول هذا التطبيق", "dir": "rtl"}
+        "fr": {"value": "À propos de cette application", "lang": "fr-CA", "dir": "ltr"},
+        "ar": {"value": "حول هذا التطبيق", "dir": "rtl"},
+        "es": {"value": "Acerca de esta aplicación", "lang": "es-ES", "dir": "ltr"}
       },      "icons": [
         { "src": "icon_normal.png", "sizes": "64x64" },
         { "src": "icon_normal.png", "sizes": "256x256" }
@@ -113,6 +135,10 @@
           { "src": "icon_localized.png", "sizes": "256x256" }
         ],
         "ar": [
+          { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "256x256" }
+        ],
+        "es": [
           { "src": "icon_localized.png", "sizes": "64x64" },
           { "src": "icon_localized.png", "sizes": "256x256" }
         ]
