@@ -1,7 +1,7 @@
 {
-  "name": "Test WebApp",
-  "short_name": "TestApp",
-  "description": "A simple test web application",
+  "name": "テストウェブアプリ",
+  "short_name": "テストアプリ",
+  "description": "シンプルなテストウェブアプリケーション",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -16,18 +16,22 @@
   "icons_localized": {
     "de": [
       { "src": "icon_localized.png", "sizes": "64x64" },
+      { "src": "icon_localized.png", "sizes": "192x192" },
       { "src": "icon_localized.png", "sizes": "256x256" }
     ],
     "fr": [
       { "src": "icon_localized.png", "sizes": "64x64" },
+      { "src": "icon_localized.png", "sizes": "192x192" },
       { "src": "icon_localized.png", "sizes": "256x256" }
     ],
     "ar": [
       { "src": "icon_localized.png", "sizes": "64x64" },
+      { "src": "icon_localized.png", "sizes": "192x192" },
       { "src": "icon_localized.png", "sizes": "256x256" }
     ],
     "es": [
       { "src": "icon_localized.png", "sizes": "64x64" },
+      { "src": "icon_localized.png", "sizes": "192x192" },
       { "src": "icon_localized.png", "sizes": "256x256" }
     ]
   },
@@ -56,8 +60,8 @@
     "es": {"value": "Una aplicación web de prueba simple", "lang": "es-ES", "dir": "ltr"}
   },
   "shortcuts": [    {
-      "name": "Home",
-      "short_name": "Home",
+      "name": "ホーム",
+      "short_name": "ホーム",
       "name_localized": {
         "de": "Startseite",
         "en": {"value": "Home"},
@@ -73,7 +77,7 @@
         "ar": {"value": "رئيسية", "dir": "rtl"},
         "es": {"value": "Inic", "lang": "es-ES", "dir": "ltr"}
       },      "url": "/",
-      "description": "Go to home page",
+      "description": "ホームページに移動",
       "description_localized": {
         "de": "Zur Startseite gehen",
         "en": {"value": "Go to home page"},
@@ -88,23 +92,27 @@
       "icons_localized": {
         "de": [
           { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "192x192" },
           { "src": "icon_localized.png", "sizes": "256x256" }
         ],
         "fr": [
           { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "192x192" },
           { "src": "icon_localized.png", "sizes": "256x256" }
         ],
         "ar": [
           { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "192x192" },
           { "src": "icon_localized.png", "sizes": "256x256" }
         ],
         "es": [
           { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "192x192" },
           { "src": "icon_localized.png", "sizes": "256x256" }
         ]
       }
     },    {
-      "name": "About",
+      "name": "について",
       "name_localized": {
         "de": "Über",
         "en": {"value": "About"},
@@ -113,7 +121,7 @@
         "ar": {"value": "حول", "dir": "rtl"},
         "es": {"value": "Acerca de", "lang": "es-ES", "dir": "ltr"}
       },      "url": "/about",
-      "description": "About this app",
+      "description": "このアプリについて",
       "description_localized": {
         "de": "Über diese App",
         "en": {"value": "About this app"},
@@ -140,6 +148,7 @@
         ],
         "es": [
           { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "192x192" },
           { "src": "icon_localized.png", "sizes": "256x256" }
         ]
       }
