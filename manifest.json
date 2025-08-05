@@ -19,6 +19,11 @@
       { "src": "icon_localized.png", "sizes": "192x192" },
       { "src": "icon_localized.png", "sizes": "256x256" }
     ],
+    "en": [
+      { "src": "icon_localized.png", "sizes": "64x64" },
+      { "src": "icon_localized.png", "sizes": "192x192" },
+      { "src": "icon_localized.png", "sizes": "256x256" }
+    ],
     "fr": [
       { "src": "icon_localized.png", "sizes": "64x64" },
       { "src": "icon_localized.png", "sizes": "192x192" },
@@ -95,6 +100,11 @@
           { "src": "icon_localized.png", "sizes": "192x192" },
           { "src": "icon_localized.png", "sizes": "256x256" }
         ],
+        "en": [
+          { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "192x192" },
+          { "src": "icon_localized.png", "sizes": "256x256" }
+        ],
         "fr": [
           { "src": "icon_localized.png", "sizes": "64x64" },
           { "src": "icon_localized.png", "sizes": "192x192" },
@@ -135,6 +145,10 @@
       ],
       "icons_localized": {
         "de": [
+          { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "256x256" }
+        ],
+        "en": [
           { "src": "icon_localized.png", "sizes": "64x64" },
           { "src": "icon_localized.png", "sizes": "256x256" }
         ],
