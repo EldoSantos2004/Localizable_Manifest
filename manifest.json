@@ -38,6 +38,11 @@
       { "src": "icon_localized.png", "sizes": "64x64" },
       { "src": "icon_localized.png", "sizes": "192x192" },
       { "src": "icon_localized.png", "sizes": "256x256" }
+    ],
+    "ja": [
+      { "src": "icon_localized.png", "sizes": "64x64" },
+      { "src": "icon_localized.png", "sizes": "192x192" },
+      { "src": "icon_localized.png", "sizes": "256x256" }
     ]
   },
   "name_localized": {
@@ -46,7 +51,8 @@
     "en-GB": {"value": "Test WebApp", "dir": "ltr"},
     "fr": {"value": "Application Web de Test", "lang": "fr-CA", "dir": "ltr"},
     "ar": {"value": "تطبيق ويب تجريبي", "dir": "rtl"},
-    "es": {"value": "Aplicación Web de Prueba", "lang": "es-ES", "dir": "ltr"}
+    "es": {"value": "Aplicación Web de Prueba", "lang": "es-ES", "dir": "ltr"},
+    "ja": {"value": "テストウェブアプリ", "lang": "ja-JP", "dir": "ltr"}
   },
   "short_name_localized": {
     "de": "TestApp",
@@ -54,7 +60,8 @@
     "en-GB": {"value": "TestApp", "dir": "ltr"},
     "fr": {"value": "AppTest", "lang": "fr-CA", "dir": "ltr"},
     "ar": {"value": "تطبيق", "dir": "rtl"},
-    "es": {"value": "AppPrueba", "lang": "es-ES", "dir": "ltr"}
+    "es": {"value": "AppPrueba", "lang": "es-ES", "dir": "ltr"},
+    "ja": {"value": "テストアプリ", "lang": "ja-JP", "dir": "ltr"}
   },
   "description_localized": {
     "de": "Eine einfache Test-Webanwendung",
@@ -62,7 +69,8 @@
     "en-GB": {"value": "A simple test web application", "dir": "ltr"},
     "fr": {"value": "Une application web de test simple", "lang": "fr-CA", "dir": "ltr"},
     "ar": {"value": "تطبيق ويب تجريبي بسيط", "dir": "rtl"},
-    "es": {"value": "Una aplicación web de prueba simple", "lang": "es-ES", "dir": "ltr"}
+    "es": {"value": "Una aplicación web de prueba simple", "lang": "es-ES", "dir": "ltr"},
+    "ja": {"value": "シンプルなテストウェブアプリケーション", "lang": "ja-JP", "dir": "ltr"}
   },
   "shortcuts": [    {
       "name": "Home",
@@ -73,14 +81,16 @@
         "en-GB": {"value": "Home", "dir": "ltr"},
         "fr": {"value": "Accueil", "lang": "fr-CA", "dir": "ltr"},
         "ar": {"value": "الرئيسية", "dir": "rtl"},
-        "es": {"value": "Inicio", "lang": "es-ES", "dir": "ltr"}
+        "es": {"value": "Inicio", "lang": "es-ES", "dir": "ltr"},
+        "ja": {"value": "ホーム", "lang": "ja-JP", "dir": "ltr"}
       },      "short_name_localized": {
         "de": "Start",
         "en": {"value": "Home"},
         "en-GB": {"value": "Home", "dir": "ltr"},
         "fr": {"value": "Acc", "lang": "fr-CA", "dir": "ltr"},
         "ar": {"value": "رئيسية", "dir": "rtl"},
-        "es": {"value": "Inic", "lang": "es-ES", "dir": "ltr"}
+        "es": {"value": "Inic", "lang": "es-ES", "dir": "ltr"},
+        "ja": {"value": "ホーム", "lang": "ja-JP", "dir": "ltr"}
       },      "url": "/",
       "description": "Go to home page",
       "description_localized": {
@@ -89,7 +99,8 @@
         "en-GB": {"value": "Go to home page", "dir": "ltr"},
         "fr": {"value": "Aller à la page d'accueil", "lang": "fr-CA", "dir": "ltr"},
         "ar": {"value": "انتقل إلى الصفحة الرئيسية", "dir": "rtl"},
-        "es": {"value": "Ir a la página de inicio", "lang": "es-ES", "dir": "ltr"}
+        "es": {"value": "Ir a la página de inicio", "lang": "es-ES", "dir": "ltr"},
+        "ja": {"value": "ホームページに移動", "lang": "ja-JP", "dir": "ltr"}
       },      "icons": [
         { "src": "icon_normal.png", "sizes": "64x64" },
         { "src": "icon_normal.png", "sizes": "256x256" }
@@ -119,6 +130,11 @@
           { "src": "icon_localized.png", "sizes": "64x64" },
           { "src": "icon_localized.png", "sizes": "192x192" },
           { "src": "icon_localized.png", "sizes": "256x256" }
+        ],
+        "ja": [
+          { "src": "icon_localized.png", "sizes": "64x64" },
+          { "src": "icon_localized.png", "sizes": "192x192" },
+          { "src": "icon_localized.png", "sizes": "256x256" }
         ]
       }
     },    {
@@ -129,7 +145,8 @@
         "en-GB": {"value": "About", "dir": "ltr"},
         "fr": {"value": "À propos", "lang": "fr-CA", "dir": "ltr"},
         "ar": {"value": "حول", "dir": "rtl"},
-        "es": {"value": "Acerca de", "lang": "es-ES", "dir": "ltr"}
+        "es": {"value": "Acerca de", "lang": "es-ES", "dir": "ltr"},
+        "ja": {"value": "について", "lang": "ja-JP", "dir": "ltr"}
       },      "url": "/about",
       "description": "About this app",
       "description_localized": {
@@ -138,7 +155,8 @@
         "en-GB": {"value": "About this app", "dir": "ltr"},
         "fr": {"value": "À propos de cette application", "lang": "fr-CA", "dir": "ltr"},
         "ar": {"value": "حول هذا التطبيق", "dir": "rtl"},
-        "es": {"value": "Acerca de esta aplicación", "lang": "es-ES", "dir": "ltr"}
+        "es": {"value": "Acerca de esta aplicación", "lang": "es-ES", "dir": "ltr"},
+        "ja": {"value": "このアプリについて", "lang": "ja-JP", "dir": "ltr"}
       },      "icons": [
         { "src": "icon_normal.png", "sizes": "64x64" },
         { "src": "icon_normal.png", "sizes": "256x256" }
